@@ -1,0 +1,20 @@
+header { 
+    display: flex; 
+    min-height: 2rem;
+    text-align: center;
+    min-height: 1.5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #253237;
+    min-width: -moz-available;
+    min-width: -webkit-fill-available;
+}
+
+header img {
+    max-width: 10%;
+    max-height: fit-content;
+    float: right;
+    padding: 0.5rem 0.5rem 0 0;
+}

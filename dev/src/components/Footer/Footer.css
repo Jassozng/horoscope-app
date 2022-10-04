@@ -1,0 +1,18 @@
+footer{
+    margin-top: auto;
+    min-height: 3rem; 
+    background:#253237;
+    text-align: center;
+    min-width: -webkit-fill-available;
+}
+
+footer a {
+    font-family: monospace;
+    text-decoration: none;
+    color: #ffff;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,39 @@
+body { 
+  display:flex; 
+  flex-direction:column;
+  background-color: #9DB4C0;
+}
+
+form {
+  width: -webkit-fill-available;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+section.birthdate-container {
+  display: flex;
+  flex-direction: column;
+  background-color:#5C6B73;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+input[type=date] {
+  width: 50%;
+  padding: 1rem 2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+::-webkit-datetime-edit-fields-wrapper { background: #9DB4C0; }
+::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }
+::-webkit-datetime-edit-month-field { color: blue; }
+::-webkit-datetime-edit-day-field { color: green; }
+::-webkit-datetime-edit-year-field { color: purple; }
+::-webkit-inner-spin-button { display: none; }
